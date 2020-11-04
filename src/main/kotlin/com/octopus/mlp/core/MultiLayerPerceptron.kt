@@ -1,7 +1,7 @@
 package com.octopus.mlp.core
 
 import com.octopus.mlp.core.domain.Layer
-import com.octopus.mlp.core.domain.TransferFunction
+import com.octopus.mlp.core.functions.TransferFunction
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.io.ObjectInputStream

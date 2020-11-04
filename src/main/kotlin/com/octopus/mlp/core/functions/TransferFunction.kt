@@ -1,4 +1,4 @@
-package com.octopus.mlp.core.domain
+package com.octopus.mlp.core.functions
 
 interface TransferFunction {
     fun evalute(value: Double): Double

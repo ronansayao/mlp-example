@@ -12,5 +12,9 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // Test Engine
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.1")
+    testImplementation("org.testcontainers:junit-jupiter:1.12.3")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
+
 }
